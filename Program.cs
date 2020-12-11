@@ -38,6 +38,7 @@ namespace Binary_search
             Console.WriteLine("f");
             int[] Ages = {4, 34, 54, 23, 16, 53, 8};
             int pos;
+            //
             pos = BinaryIntSearch(Ages, 4);
             if (pos == -1)
             {
@@ -45,7 +46,7 @@ namespace Binary_search
             }
             else
             {
-                Console.WriteLine(Convert.ToString(pos));
+                Console.WriteLine("Item in position: " + Convert.ToString(pos));
             }
 
         }
